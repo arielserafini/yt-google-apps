@@ -1,0 +1,22 @@
+{
+
+  "name": "Hide YouTube Google Apps reminder",
+  "version": "0.1",
+  "description": "",
+  "icons": { "16": "icons/icon16.png",
+             "48": "icons/icon48.png",
+            "128": "icons/icon128.png" },
+  "default_locale": "en",
+
+  "content_scripts": [
+    {
+      "matches": ["http://www.youtube.com/*", "https://www.youtube.com/*"],
+      "css": ["src/inject.css"]
+    }
+  ],
+
+  "manifest_version": 2
+
+  // http://code.google.com/chrome/extensions/autoupdate.html */
+  // "update_url": "http://myhost.com/mytestextension/updates.xml"
+}
