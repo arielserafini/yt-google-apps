@@ -2,7 +2,7 @@
 
   "name": "Hide YouTube Google Apps reminder",
   "version": "0.1",
-  "description": "",
+  "description": "Hides the \"This account is managed by\" warning on YouTube pages. Open source.",
   "icons": { "16": "icons/icon16.png",
              "48": "icons/icon48.png",
             "128": "icons/icon128.png" },
@@ -16,7 +16,4 @@
   ],
 
   "manifest_version": 2
-
-  // http://code.google.com/chrome/extensions/autoupdate.html */
-  // "update_url": "http://myhost.com/mytestextension/updates.xml"
 }
